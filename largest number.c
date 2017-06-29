@@ -7,7 +7,11 @@ clrscr();
 printf("enter the  three numbers");
 
 scanf("%d%d%d",&a,&b,&c);
-if(a>b)
+if(a=b=c)
+{
+printf("invalid");
+}
+else if(a>b)
 {
 printf("a is largest");
 }
