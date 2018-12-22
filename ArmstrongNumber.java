@@ -13,8 +13,8 @@ class ArmstrongNumber
        c=c+(a*a*a);  
       }  
       if(t==c)  
-      System.out.println("armstrong number");   
+      System.out.println("yes");   
       else  
-      System.out.println("Not armstrong number");   
+      System.out.println("No");   
     }  
  }  
