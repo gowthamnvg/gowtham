@@ -1,3 +1,3 @@
-w=input("enter the string to be reversed")
+w=input()
 s=w[: :-1]
-print("The reversed string is "+" ",[s])
+print([s])
