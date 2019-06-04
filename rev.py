@@ -1,3 +1,3 @@
-w=input()
+w=input("enter the input")
 s=w[: :-1]
-print([s])
+print("the output is"+" ",[s])
