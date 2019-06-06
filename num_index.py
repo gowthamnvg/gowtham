@@ -1,13 +1,13 @@
-a=int(input())
-b=input().split()
-x=[]
-for i in range(0,a):
-  if(int(b[i])==i):
-    x.append(b[i])
-if(x==[]):
+inp1=int(input())
+inp2=input().split()
+l=[]
+for i in range(0,inp1):
+  if(int(inp2[i])==i):
+    l.append(inp2[i])
+if(l==[]):
   print("-1")
 else:
-  x.sort()
-  for j in range(0,len(x)):
-    print(x[j],end=" ")
+  l.sort()
+  for j in range(0,len(l)):
+    print(l[j],end=" ")
     
