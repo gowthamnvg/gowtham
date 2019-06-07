@@ -1,3 +1,4 @@
-inp1=int(input())
-inp2=int(input())
-print(inp1+inp2)
+a=int(input())
+b=int(input())
+c=a+b
+print(c)
