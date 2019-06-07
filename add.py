@@ -1,3 +1,3 @@
-a,b =map(int,input().split())
-m=a+b
+num1,num2 =map(int,input().split())
+m=num1+num2
 print("",m)
