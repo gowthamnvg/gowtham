@@ -1,5 +1,5 @@
 inp=input()
-if (inp.isalnum()):
-   print('yes')
+if (inp.isalnum):
+   print("yes")
 else:
-   print('no')
+   print("no")
