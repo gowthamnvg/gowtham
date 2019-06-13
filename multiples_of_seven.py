@@ -1,5 +1,5 @@
-inp=iinpt(iinpput())
+inp=int(input())
 if(inp%7==0):
-	priinpt("yes")
+	print("yes")
 else:
-	priinpt("no")
+	print("no")
