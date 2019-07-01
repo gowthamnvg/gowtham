@@ -1,9 +1,8 @@
 inp1,inp2=map(int,input().split())
-n=list(map(int,input().split()))[:inp1]
-n1=list(map(int,input().split()))[:inp2]
-n2=list(map(int,input().split()))[:inp2]
-n3=list(map(int,input().split()))[:inp2]
-print(min(inp1+n1))
-print(min(inp1+n2))
-print(min(inp1+n3))
-
+l=list(map(int,input().split()))
+for x in range (1,inp1):
+    l[x]+=l[x-1]
+for x in range (inp2):
+    s,temp=map(int,input().split())
+    y=l[temp-1] if s==1 else l[temp-1]-l[s-2]
+    print(y)
