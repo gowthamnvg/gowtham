@@ -1,10 +1,10 @@
 import math
-numb1,numb2=input().split()
-numb1=int(numb1)
-numb2=int(numb2)
-num=numb1*numb2
-root=math.sqrt(num)
-if (int(root+0.5)**2==num):
+n1,n2=input().split()
+n1=int(n1)
+n2=int(n2)
+n=n1*n2
+r=math.sqrt(n)
+if (int(r+0.5)**2==n):
   print("yes")
 else:
   print("no")
