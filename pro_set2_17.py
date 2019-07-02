@@ -7,7 +7,7 @@ for x in range(o):
     for y in range(x+1,o):
         ss=0
         ss=l[x]+l[y]
-        if(ss==x):
+        if(ss==i):
             count+=1
             break
 if(count==1):
