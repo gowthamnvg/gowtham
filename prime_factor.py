@@ -1,5 +1,5 @@
 inp1=int(input())
-for i in range(inp1,0,-1):
+for i in range(1,inp1+1):
     if(inp1%i==0):
-        print(i)
+        print(i,end="")
     
